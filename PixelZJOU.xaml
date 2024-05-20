@@ -1,0 +1,30 @@
+﻿<local:MyCard Title="欢迎使用PCL2 PixelZJOU特别版" Margin="0,0,0,15" CanSwap="False">
+	<StackPanel Margin="25,40,23,15">
+
+        <local:MyHint Margin="0,0,0,4" IsWarn="False"
+                    Text="加入 PixelZJOU 交流群：124622006；KOOK语言频道：Y0L24P。" />
+            
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,4,10,10" Height="35" HorizontalAlignment="Center" Padding="25,0,25,0"
+                    Text="点击此处快捷加入QQ群！" EventType="打开网页" EventData="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=D8PeSWzyuS734PBflTPySytK9fWJgy_I&amp;authKey=%2FcQTOP1Upe%2Bn0QSXvv%2FL8d746aelX0HZ9FY0M%2FyrCE82g%2ByoaqkNmqnEEkUSu3w1&amp;noverify=0&amp;group_code=124622006"/>
+		    <local:MyButton Margin="0,4,10,10" Height="35" HorizontalAlignment="Center" Padding="25,0,25,0"
+                    Text="点击此处快捷加入KOOK！" EventType="打开网页" EventData="https://kook.top/Y0L24P"/>
+		</StackPanel>
+
+        <TextBlock TextWrapping="Wrap" Margin="0,4,0,4"
+                    Text="文本内容"/>
+        <local:MyHint Text="此启动器基于PCL2修改，完全免费！" />
+
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="其他信息" Margin="0,0,0,15" CanSwap="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="本主页由XvrNevSad制作，任何建议群内联系@XvrNevSad" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 
+    By XvrNevSad
+-->
